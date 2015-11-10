@@ -1,0 +1,118 @@
+body {
+  /* Typography Declarations */
+  
+  color: #1A2327;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+a {
+  font-style: italic;
+  text-decoration: none;
+  color: #D8DB67;
+}
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('http://imgur.com/LO3y5bx.jpg');
+  background-size: cover;
+  background-position: center;
+  border-bottom: groove #000000;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.questions-section h3 {
+  /* Typography Declarations */
+  
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #1E4B5B;
+  /* Layout */
+  
+  margin: 2em 0 1em 0;
+}
+
+.content-footer {
+  text-align: center;
+  background-color: #1E4B5B;
+  padding: 1rem;
+}
+
+.content-footer p {
+  color: white;
+  /* Typography Declarations */
+  
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.social li {
+  display: inline-block;
+}
+/* Responsive styles 
+  (the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+*/
+
+/*desktop first approach*/
+
+/*ipad lanscape / small laptop*/
+@media only screen and (max-width: 1024px) {
+  body  {
+  }
+  .masthead-heading {
+    font-size: 4em;  
+  }
+}
+
+/*ipad potrait*/
+@media only screen and (max-width: 768px) {
+  body  {
+  }
+  .introduction-section,
+  .location-section,
+  .questions-section {
+  margin: 1rem;
+  }
+}
+
+/*iPhone landscape*/
+@media only screen and (max-width: 480px) {
+  body  {
+  }
+}
+
+/*iPhone portrait*/
+@media only screen and (max-width: 320px) {
+  body  {
+  }
+}
