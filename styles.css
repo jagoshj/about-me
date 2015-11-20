@@ -15,22 +15,19 @@ a {
 .masthead-intro {
   text-align: center;
 }
-
 .masthead {
   padding: 6em 0;
   background-image: url('http://imgur.com/LO3y5bx.jpg');
   background-size: cover;
   background-position: center;
-  border-bottom: groove #000000;
+  border-bottom: groove #1A2327;
 }
-
 .masthead-intro {
   margin-bottom: 0.1em;
   margin-bottom: 0.1em;
   font-family: "Gentium Book Basic", Georgia, serif;
   font-size: 2em;
 }
-
 .masthead-heading {
   margin-top: -0.2em;
   margin-top: -0.2em;
@@ -40,7 +37,38 @@ a {
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
-
+.navigation {
+}
+.navigation ul {
+  list-style:none;
+}
+.navigation .links {
+    float: right;
+    margin-top: 0.25em;
+    margin-bottom: 2em;
+    margin-right: 0;
+    letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+.navigation ul li {
+  display: inline-block;
+}
+.navigation ul li a {
+  padding:6 2 6 2em;
+  background: #1A2327;
+  text-decoration: none;
+  border-color: #1A2327;
+}
+.navigation .links li.active{
+  background: #30383C;
+  font-weight: 500;
+}
+.navigation .links li:hover {
+  cursor: pointer;
+  background: #474E52;
+}
+/*ABOUT ME PAGE*/
 .introduction-section,
 .location-section,
 .questions-section {
@@ -49,7 +77,6 @@ a {
   margin-right: auto;
   margin-top: 2em;
 }
-
 .questions-section h3 {
   /* Typography Declarations */
   
@@ -61,13 +88,11 @@ a {
   
   margin: 2em 0 1em 0;
 }
-
 .content-footer {
   text-align: center;
   background-color: #1E4B5B;
   padding: 1rem;
 }
-
 .content-footer p {
   color: white;
   /* Typography Declarations */
@@ -75,9 +100,14 @@ a {
   font-weight: 300;
   letter-spacing: 0.05em;
 }
-
 .social li {
   display: inline-block;
+}
+/*PORTFOLIO PAGE*/
+img {
+    width: 338px;
+    height: 175px;
+    border: 3px solid #1E4B5B;
 }
 /* Responsive styles 
   (the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
